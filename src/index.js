@@ -1,6 +1,8 @@
 import ReactDom from 'react-dom'
 import React from 'react'
 
+import './index.css'
+
 const tag = 'Olá mundo!'
 
 ReactDom.render

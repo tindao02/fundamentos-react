@@ -5,6 +5,11 @@
     border-radius: 10px;
     overflow: hidden;
     margin: 10px;
+
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+    max-width: 300px;
 }
 
 .Card .Title
@@ -16,6 +21,7 @@
 
 .Card .Content
 {
+    flex: 1;
     background-color: rgb(175, 175, 175);
     color: black;
     padding: 20px;

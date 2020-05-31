@@ -9,7 +9,7 @@ import Randomico from './components/basicos/Randomico'
 import Card from './components/layout/Card'
 import Familia from './components/basicos/Familia'
 import FamiliaMembro from './components/basicos/FamiliaMembro'
-
+import ListaAlunos from './components/repeticao/ListaAlunos'
 
 export default () =>
 (
@@ -17,7 +17,10 @@ export default () =>
         <h1>Fundamento React</h1>
 
         <div className='Cards'>
-            <Card titulo="#05 - Componente com Filhos" color='#00C8F8'>
+            <Card titulo="#06 - Repetição" color='#00C8F8'>
+                <ListaAlunos/>
+            </Card>
+            <Card titulo="#05 - Componente com Filhos" color='#FF4C65'>
                 <Familia sobrenome='Morais'>
                     <FamiliaMembro nome='Tindão' />
                     <FamiliaMembro nome='Pedro' />

@@ -11,6 +11,7 @@ import Familia from './components/basicos/Familia'
 import FamiliaMembro from './components/basicos/FamiliaMembro'
 import ListaAlunos from './components/repeticao/ListaAlunos'
 import ListaProdutos from './components/repeticao/ListaProdutos'
+import ParOuImpar from './components/condicional/ParOuImpar'
 
 export default () =>
 (
@@ -19,6 +20,10 @@ export default () =>
 
         <div className='Cards'>
             
+            <Card titulo="#08 - Renderização condicional" color='#982395'>
+                <ParOuImpar numero={-21}/>
+            </Card>
+
             <Card titulo="#07 - Repetição Produtos" color='#10C818'>
                 <ListaProdutos/>
             </Card>
